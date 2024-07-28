@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Receitas</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+        .navbar-nav .nav-link.active {
+            color: #fff;
+        }
+        .nav-link {
+            text-align: center;
+        }
+        section {
+            padding: 70px 0;
+            background-color: #fff;
+        }
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            background-color: #fff;
+            z-index: 1000;
+        }
+       
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Restaurante Deia</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#inicio">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produto">Produtos</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <!-- Carousel -->
+        <section id="inicio">
+            <h2>Início</h2>
+            <div id="carousel-autoplay" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-autoplay" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-autoplay" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel-autoplay" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carousel-autoplay" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/close-up-mousse-de-sobremesa_23-2148322809.jpg" class="rounded mx-auto d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/composicao-de-alimentos-brasileiros-de-alto-angulo_23-2148739212.jpg" class="rounded mx-auto d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/feche-a-mao-segurando-o-garfo_23-2148899011.jpg" class="rounded mx-auto d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/refeicao-de-comida-brasileira-simples-com-espaco-de-copia_23-2148739187.jpg" class="rounded mx-auto d-block">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produto">
+            <h2>Produtos</h2>
+            <div class="container ">
+                <div class="row g-4">
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Column 1
+                        </header>
+                        <img src="https://via.placeholder.com/100x100">
+                        <div class="card-body">
+                            <h4 class="card-title">Site vercel</h4>
+                            <p class="card-text">
+                                aplicandom conhecimento bootstrap.
+                            </p>
+                            <a href="#" class="btn btn-primary">Botão Link</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="">28/08/20222 17:00</time>
+                        </footer>
+                    </article>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Column 2
+                        </header>
+                        <img src="https://via.placeholder.com/100x100">
+                        <div class="card-body">
+                            <h4 class="card-title">Site vercel</h4>
+                            <p class="card-text">
+                                aplicandom conhecimento bootstrap.
+                            </p>
+                            <a href="#" class="btn btn-primary">Botão Link</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="">28/08/20222 17:00</time>
+                        </footer>
+                    </article>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Column 3
+                        </header>
+                        <img src="https://via.placeholder.com/100x100">
+                        <div class="card-body">
+                            <h4 class="card-title">Site vercel</h4>
+                            <p class="card-text">
+                                aplicandom conhecimento bootstrap.
+                            </p>
+                            <a href="#" class="btn btn-primary">Botão Link</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="">28/08/20222 17:00</time>
+                        </footer>
+                    </article>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Column 4
+                        </header>
+                        <img src="https://via.placeholder.com/100x100">
+                        <div class="card-body">
+                            <h4 class="card-title">Site vercel</h4>
+                            <p class="card-text">
+                                aplicandom conhecimento bootstrap.
+                            </p>
+                            <a href="#" class="btn btn-primary">Botão Link</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="">28/08/20222 17:00</time>
+                        </footer>
+                    </article>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Column 5
+                        </header>
+                        <img src="https://via.placeholder.com/100x100">
+                        <div class="card-body">
+                            <h4 class="card-title">Site vercel</h4>
+                            <p class="card-text">
+                                aplicandom conhecimento bootstrap.
+                            </p>
+                            <a href="#" class="btn btn-primary">Botão Link</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="">28/08/20222 17:00</time>
+                        </footer>
+                    </article>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <article class="card">
+                        <header class="card-header">
+                            Column 6
+                        </header>
+                        <img src="https://via.placeholder.com/100x100">
+                        <div class="card-body">
+                            <h4 class="card-title">Site vercel</h4>
+                            <p class="card-text">
+                                aplicandom conhecimento bootstrap.
+                            </p>
+                            <a href="#" class="btn btn-primary">Botão Link</a>
+                        </div>
+                        <footer class="card-footer">
+                            Postado em <time datetime="">28/08/20222 17:00</time>
+                        </footer>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              
+        </section>
+    </div>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
